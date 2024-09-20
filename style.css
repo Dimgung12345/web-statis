@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: rgb(3, 72, 100);
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 100;
+    transition: 3s;
+}
+
+.navbar a {
+    font-size: 20px;
+    color: azure;
+    display: flex;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 30px;
+}
+a:hover,
+a.active {
+    color: rgb(11, 170, 117);
+}
+ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    justify-content: space-between;
+}
