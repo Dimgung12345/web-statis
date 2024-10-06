@@ -6,7 +6,7 @@
 }
 
 body {
-    background: rgb(3, 72, 100);
+    background: rgb(5, 49, 96);
 }
 
 .header {
@@ -15,7 +15,7 @@ body {
     left: 0;
     width: 100%;
     padding: 20px;
-    background-color: aqua;
+    background-color: rgb(107, 149, 184);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -25,7 +25,7 @@ body {
 
 .navbar a {
     font-size: 20px;
-    color: azure;
+    color: rgb(50, 103, 144);
     display: flex;
     text-decoration: none;
     font-weight: 500;
@@ -33,11 +33,118 @@ body {
 }
 a:hover,
 a.active {
-    color: rgb(11, 170, 117);
+    color: rgb(35, 5, 59);
 }
 ul {
     display: flex;
     list-style: none;
     gap: 25px;
     justify-content: space-between;
+}
+
+.Tentang {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.Tentang-content {
+    max-width: 600px;
+}
+
+.Tentang-content img{
+    position: relative;
+    width: 64vh;
+}
+
+.Tentang-content h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.Tentang-content h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(91, 154, 236);
+}
+
+.Tentang-content p {
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(131, 192, 236);
+}
+
+.Kit {
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    padding: 0 10%;
+}
+
+.Kit-content {
+    max-width: 600px;
+}
+
+.Kit-content h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.Kit-content h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.Kit-content p {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+span {
+    color: rgb(40, 168, 253);
+}
+
+.Build {
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    padding: 0 10%;
+}
+
+.Build-content h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.Build-content h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.Build-content p {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.Tim {
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    padding: 0 10%;
+}
+
+.Build-content h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.Tim-content h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.Tim-content img {
+    position: relative;
+    width: 72vh;
 }
