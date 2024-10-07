@@ -110,7 +110,7 @@ span {
 .Build {
     height: 100vh;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     padding: 0 10%;
     color: azure;
 }
