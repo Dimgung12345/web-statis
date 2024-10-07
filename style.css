@@ -47,6 +47,7 @@ ul {
     display: flex;
     align-items: center;
     padding: 0 10%;
+    color: rgb(0, 0, 0);
 }
 
 .Tentang-content {
@@ -80,6 +81,7 @@ ul {
     display: flex;
     align-items: flex-start;
     padding: 0 10%;
+    color: azure;
 }
 
 .Kit-content {
@@ -108,8 +110,9 @@ span {
 .Build {
     height: 100vh;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     padding: 0 10%;
+    color: azure;
 }
 
 .Build-content h2 {
@@ -132,9 +135,10 @@ span {
     display: flex;
     align-items: flex-start;
     padding: 0 10%;
+    color: azure;
 }
 
-.Build-content h2 {
+.Tim-content h2 {
     font-size: 30px;
     font-weight: 700;
 }
@@ -146,5 +150,5 @@ span {
 
 .Tim-content img {
     position: relative;
-    width: 72vh;
+    width: 64vh;
 }
