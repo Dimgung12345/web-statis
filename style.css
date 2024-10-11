@@ -109,12 +109,16 @@ ul {
     font-size: 20px;
     font-weight: 700;
     color: azure;
+    margin-bottom: 12px;
+    margin-top: 12px;
 }
 
 .content p {
     font-size: 15px;
     font-weight: 700;
     color: azure;
+    margin-top: 12px;
+    margin-bottom: 12px;
 }
 
 span {
